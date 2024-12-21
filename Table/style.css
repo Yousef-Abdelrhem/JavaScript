@@ -1,0 +1,51 @@
+
+
+table
+{
+	max-width: 1140px;
+	width: 300rem;
+	height: 20rem;
+	border: 1px solid black;
+	border-spacing: 0;
+	text-align: center;
+}
+thead
+{
+	border: 2px solid black;
+	font-weight: 200;
+	height: 4rem;
+	background-color: #4f81bd;
+	color: white;
+	
+}
+
+td
+{
+	border: 1px solid black;
+	padding: 1rem;
+	
+}
+
+span
+{
+}
+
+a
+{
+	
+	color: gray;
+}
+.bgcell
+{
+	background-color: #dbe5f1;
+}
+.headline
+{
+	color: gray;
+	text-decoration: underline;
+	
+}
+.links
+{
+	width: 1rem;
+}

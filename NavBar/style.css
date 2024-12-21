@@ -1,0 +1,38 @@
+*
+{
+	margin: 0;
+	padding: 0;;
+}
+a{
+	text-decoration:none;
+	color: white;
+
+}
+.navList
+{
+	position: fixed;
+	width: 100%;
+	list-style: none;
+	display: flex;
+	background-color: black;
+	top: 0;
+	padding: 0;
+	height: 3rem;
+
+}
+.navItem
+{
+	font-weight: bold;
+	color: black;
+	margin-right: 7rem;
+	display: inline-block;
+	align-self: center;
+}
+.navItem:hover {
+    background-color: #514a4a;
+	
+}
+p
+{
+	margin-top: 4em;
+}
