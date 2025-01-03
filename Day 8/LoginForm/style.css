@@ -1,0 +1,278 @@
+:root
+{
+    --primary: #f4f9fc;
+    --line: #f33f23;
+    --text: #66616d;
+    --subtext: #EAEAEA;
+    --fill: #aadcec;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
+/* Typography */
+body{
+    
+    font-family: "Artifika", serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 0;
+}
+img {
+    width: 100%;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    color: var(--text);
+    margin-bottom:0.5rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+  
+  h2 {
+    font-size: 4rem;
+  }
+  
+  h3 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  
+  p
+  {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 3rem;
+    }
+    h1 {
+      font-size: 8rem;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-size: 2.4rem;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+  }
+/* containers */
+.flex-coulum {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+.flex-row {
+    display: flex;
+    justify-content: center;
+} 
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 1.5rem;
+}
+
+.setwidth {
+    margin: 0 auto;
+}
+
+.grid
+{
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 1.5rem; 
+        justify-items: center; 
+}
+  /* NavBar */
+
+.nav{
+    background-color: black;
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    height: 3.8rem;
+    justify-content: space-between;
+    list-style: none;
+    margin:0;
+    padding: 0 1rem;
+}
+
+    .icon-container
+    {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 1rem;
+    }
+
+.logo-wrap  img
+{
+    margin-bottom: 0.3rem;
+}
+.logo-marign
+{
+margin-right: 1rem;
+}
+
+svg
+{
+height: 2rem; 
+   z-index: 1;
+   color: white;
+}
+
+
+/* background and banner */
+
+.bg {
+    height: 38rem;
+    background-image: url("images/bg.jpg") ;
+    background: 
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url("images/bg.jpg");
+    background-size: cover;
+    /* background-position: center ; */
+    background-repeat: no-repeat;
+
+
+}
+.bg h3
+{
+    margin-top:0;
+    font-size: 3rem;
+    color: white;
+}
+.bg p
+{
+    color: #EAEAEA ;
+}
+
+.bg .name
+{
+    color: #eb4f37;
+    font-family: "Pacifico", cursive;
+
+}
+@media screen and (min-width: 768px)
+{
+    .bg {
+        height: 38rem;
+        background: 
+        linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+        url("images/bannerDesktop.jpg");
+        background-size: cover;
+        background-position: left 40%; /* Position image at the center */
+
+    }
+}
+
+/* Buttons */
+
+.button
+{
+    font-family: "Artifika", serif;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    margin-top: 0;
+}
+.button-banner
+{
+    color: rgb(241, 241, 241);
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid #ed5740;
+
+}
+
+/* GALLARY */
+
+li
+{
+    list-style-type: none;
+    color: var(--text);
+    font-size: 1.3rem;
+}
+.list
+{
+    padding-left: 0;
+}
+.gallary .list li
+{
+    margin-right: 1rem; 
+    font-weight: bold;
+}
+.list-selected
+{
+    border-bottom: 2px solid #f33f23;
+}
+
+
+.gallary-photo
+{
+    border-radius: 2rem;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    
+}
+hr{
+    width: 300px;
+    margin: 1rem auto;
+    margin-top: 0.4rem;
+    height: 2px;
+    border: none;
+    background-color: var(--line);
+    
+}
+
+@media (min-width: 768px) {
+    .photos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    hr{
+        display: none;
+    }
+}
+
+/* footer */
+.footer
+{
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 20px;
+}
+.footer_heading
+{
+    margin-top: 2rem;
+    color: var(--text);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+.icon_insta
+{
+    width: 30px;
+    height: 30px;
+}
+
+/* inputs */

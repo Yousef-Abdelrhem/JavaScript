@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallary-Art</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=sans-serif:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Artifika&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <ul class="nav">
+        <li class="logo-wrap">
+          <img src="images/logo.png.webp" alt="Logo" />
+        </li>
+
+        <p
+          class="user-data"
+          style="margin-bottom: 0; color: white; display: none; text-align:center;"
+        >
+
+        </p>
+
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+            width="50px"
+            height="50px"
+          >
+            <path
+              d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"
+              fill="white"
+            />
+          </svg>
+        </li>
+      </ul>
+    </div>
+
+    <!-- background -->
+    <section class="bg flex-coulum">
+      <div class="container">
+        <h3 class="banner" data-aos="zoom-in-up">
+          Hello I'm <br /><span class="name" data-aos="fade-down">Fatiima</span>
+        </h3>
+        <p data-aos="zoom-in-up">
+          Immerse yourself in a curated selection of contemporary and classical
+          works that celebrate artistic vision. Each piece is thoughtfully
+          presented to spark inspiration, provoke emotion, and invite viewers
+          into a rich visual narrative.
+        </p>
+        <button
+          type="button"
+          class="button button-banner"
+          data-aos="zoom-in-up"
+        >
+          Sign Up
+        </button>
+      </div>
+    </section>
+    <section class="gallary">
+      <ul class="list flex-row">
+        <li class="list-selected">All</li>
+        <li>Human</li>
+        <li>Nature</li>
+        <li>Video</li>
+      </ul>
+      <div class="container photos grid">
+        <img class="gallary-photo" src="images\1.jpg" data-aos="zoom-out-up" />
+        <hr />
+        <img
+          class="gallary-photo"
+          src="images\2.jpg"
+          data-aos="zoom-out-down"
+        />
+        <hr />
+        <img class="gallary-photo" src="images\3.jpg" data-aos="zoom-out-up" />
+        <hr />
+        <img
+          class="gallary-photo"
+          src="images\4.jpg"
+          data-aos="zoom-out-down"
+        />
+        <hr />
+        <img class="gallary-photo" src="images\5.jpg" data-aos="zoom-out-up" />
+        <hr />
+        <img
+          class="gallary-photo"
+          src="images\8.jpg"
+          data-aos="zoom-out-down"
+        />
+      </div>
+    </section>
+
+    <footer class="flex-column container footer">
+      <h6 class="footer_heading">Follow me on</h6>
+      <div class="socialmedia flex-row">
+        <a href="#"><img class="icon" src="images\facebook.png" /></a>
+        <a href="#"
+          ><img class="icon icon_insta" src="images\instagram.png"
+        /></a>
+        <a href="#"><img class="icon" src="images\linkedin.png" /></a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

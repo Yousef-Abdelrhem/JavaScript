@@ -1,0 +1,89 @@
+
+body {
+    background-color: #e0ccec;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container
+{
+    height: 100%;
+}
+.inputField {
+    background-color: #e0ccec;
+    border: 0px #8a2be2;
+    border-bottom: 1px solid #8a2be2;
+    width: 600px;
+    margin-top: 2rem;
+    padding-bottom: 1rem; /* This creates space inside the input field */
+}
+.inputField:focus {
+    outline: none;
+}
+.inputField::placeholder
+{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(154, 151, 151);
+}
+
+
+.buttons button {
+    font-size: 0.9rem;
+    margin: 2rem;
+    margin-right: 1rem;
+    margin-left: 0rem;
+    width: 150px;
+    border-radius: 8px;
+    padding: 0.3rem 0rem 0.3rem 0rem; 
+}
+.button-primary {
+    color: white;
+    border: 0px;
+    background-color:#8a2be2;
+}
+
+.button-secondary {
+    color: black;
+    background-color:white;
+    border: 1px solid #8a2be2;
+}
+
+table
+{
+    width: 600px;
+    text-align: center;
+    border-spacing: 0;
+}
+
+tr,th,td {
+    border-bottom: 1px solid #8a2be2;
+    padding: 0.6rem;
+}
+
+
+.required
+{
+    margin: 1rem;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    width: 600px;
+    height: 20px;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 1rem;
+    color:red;
+    border: 1px solid red;
+    display: none;
+}
+.required p{
+    margin: 0;
+    height: 100%;
+    text-align: left
+}

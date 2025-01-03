@@ -1,0 +1,29 @@
+
+table
+{
+    width: 100%;
+    text-align: center;   
+    border-collapse: collapse;
+    
+}
+
+thead{
+    background-color: rgb(46, 183, 46);
+    color: white;
+
+}
+
+tbody tr{
+    background-color: lightgray;
+}
+
+td{
+    color: green;
+    padding: 0.5rem;
+}
+
+th{
+    width: 50%;
+    padding: 0.5rem;
+}
+
